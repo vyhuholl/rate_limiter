@@ -6,7 +6,7 @@ from interface.web_app import create_app
 
 def main():
     config = load_config()
-    app = create_app(config.redis_url)
+    app = create_app(config)
     web.run_app(app, port=config.port)
 
 
