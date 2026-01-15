@@ -5,7 +5,7 @@ A distributed rate limiter for API endpoints using Redis. The service provides c
 
 ## Tech Stack
 - Python 3.12+ with asyncio for asynchronous programming
-- aioredis for Redis client connectivity
+- redis-py with asyncio for Redis client connectivity
 - uv for virtual environment management and running code
 - ruff for linting
 - ruff-format for code formatting (line length: 79)
